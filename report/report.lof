@@ -1,0 +1,29 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Implementation roadmap: versions V0 to V3}}{6}{figure.3.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Single thread GFLOP/s vs. $n$, all versions, icelake}}{11}{figure.caption.16}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Wall-clock time vs. $n$ (log--log), all versions, icelake}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces V2 GFLOP/s vs.\ thread count, icelake}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces V2 parallel speedup vs.\ thread count, icelake}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces V2 speedup heatmap over $(n,T)$, icelake}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces V2 parallel efficiency vs.\ thread count, icelake}}{15}{figure.caption.23}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Measured speedup with fitted Amdahl curves, icelake}}{15}{figure.caption.24}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Measured speedup with fitted Amdahl curves, cclake}}{16}{figure.caption.25}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces V2 GFLOP/s vs.\ thread count, cclake}}{17}{figure.caption.27}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces V2 speedup heatmap over $(n,T)$, cclake}}{18}{figure.caption.28}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces V2 GFLOP/s vs.\ thread count: icelake vs.\ cclake}}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Peak GFLOP/s per version, icelake}}{19}{figure.caption.30}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Peak GFLOP/s per version, cclake}}{19}{figure.caption.31}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces NUMA close/spread ratio vs.\ thread count, $n=2000$, cclake}}{20}{figure.caption.33}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces NUMA close vs.\ spread GFLOP/s, $n=2000$, cclake}}{21}{figure.caption.34}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces V2 vs.\ V3 GFLOP/s vs.\ thread count, icelake}}{23}{figure.caption.36}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces V3/V2 improvement heatmap over $(n,T)$, icelake}}{23}{figure.caption.37}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

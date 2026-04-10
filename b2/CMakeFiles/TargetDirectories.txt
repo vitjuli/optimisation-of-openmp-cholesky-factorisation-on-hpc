@@ -1,0 +1,8 @@
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/cholesky_lib.dir
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/cholesky_example.dir
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/cholesky_test_n2.dir
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/cholesky_test.dir
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/cholesky_benchmark.dir
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/test.dir
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/edit_cache.dir
+/Users/julia/Desktop/courses/c2_claude/gitlab/b2/CMakeFiles/rebuild_cache.dir

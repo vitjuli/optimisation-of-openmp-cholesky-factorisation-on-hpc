@@ -1,0 +1,22 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Reproducibility metadata for all experiments}}{8}{table.caption.11}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces GFLOP/s at $T=1$, all versions, icelake}}{9}{table.caption.12}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces V2 GFLOP/s vs.\ thread count, icelake}}{12}{table.caption.18}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Amdahl serial-fraction estimates from peak speedup}}{13}{table.caption.19}%
+\contentsline {table}{\numberline {7.5}{\ignorespaces V2 GFLOP/s vs.\ thread count, cclake}}{16}{table.caption.26}%
+\contentsline {table}{\numberline {7.6}{\ignorespaces NUMA close vs.\ spread GFLOP/s, $n=2000$, cclake}}{20}{table.caption.32}%
+\contentsline {table}{\numberline {7.7}{\ignorespaces Same node V2 vs.\ V3 GFLOP/s comparison, icelake}}{21}{table.caption.35}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces CMake build targets}}{26}{table.caption.40}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Git tagged commits}}{27}{table.caption.41}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Test group summary (A-K)}}{28}{table.C.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {D.1}{\ignorespaces Experiment ledger: result sections to source CSV files}}{30}{table.caption.42}%

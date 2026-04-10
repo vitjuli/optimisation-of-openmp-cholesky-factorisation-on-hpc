@@ -1,0 +1,107 @@
+# =============================================================================
+# Doxyfile — MPhil DIS C2 Cholesky documentation
+#
+# Generate HTML docs (open locally, no server needed):
+#
+#   cmake --build build --target docs
+#   open docs/html/index.html          # macOS
+#   xdg-open docs/html/index.html      # Linux / CSD3
+#
+# Or run Doxygen directly from the repo root:
+#   doxygen docs/Doxyfile
+#
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Project identity
+# ---------------------------------------------------------------------------
+PROJECT_NAME           = "mphil_dis_cholesky"
+PROJECT_BRIEF          = "MPhil DIS C2 — Cholesky factorisation with OpenMP (Lent 2026)"
+PROJECT_NUMBER         = "v0-v3"
+
+# ---------------------------------------------------------------------------
+# Output
+# ---------------------------------------------------------------------------
+OUTPUT_DIRECTORY       = docs
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+GENERATE_RTF           = NO
+GENERATE_XML           = NO
+
+# ---------------------------------------------------------------------------
+# Input
+# ---------------------------------------------------------------------------
+# Only the public header, the production implementation, and the explicit
+# doc pages are indexed.  Testing hooks, example, benchmark, and report
+# sources are intentionally excluded to avoid duplicated narrative content.
+INPUT                  = include/ \
+                         src/ \
+                         benchmark/ \
+                         example/ \
+                         test/ \
+                         docs/doxygen
+
+IMAGE_PATH             = docs/assets
+FILE_PATTERNS          = *.h *.cpp *.md
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */build*/*
+
+# docs/doxygen/mainpage.md is the landing page (replaces README.md)
+USE_MDFILE_AS_MAINPAGE = docs/doxygen/mainpage.md
+
+# ---------------------------------------------------------------------------
+# Extraction
+# ---------------------------------------------------------------------------
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+EXTRACT_PRIVATE        = NO
+
+# ---------------------------------------------------------------------------
+# Source browsing — lets markers click from the API docs into the code
+# ---------------------------------------------------------------------------
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+STRIP_CODE_COMMENTS    = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+# ---------------------------------------------------------------------------
+# Preprocessing — show the OpenMP parallel version in the browsed source
+# ---------------------------------------------------------------------------
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+PREDEFINED             = CHOLESKY_VERSION=2 \
+                         _OPENMP
+
+# ---------------------------------------------------------------------------
+# Warnings / noise
+# ---------------------------------------------------------------------------
+QUIET                  = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = YES
+# Redirect warnings to a file (avoids stdout noise from harmless @pragma refs
+# that arise when Doxygen parses "#pragma omp" lines in doc-comment blocks).
+WARN_LOGFILE           = docs/doxygen_warnings.log
+
+# ---------------------------------------------------------------------------
+# HTML appearance — clean, self-contained, opens offline
+# ---------------------------------------------------------------------------
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+FULL_SIDEBAR           = NO
+HTML_COLORSTYLE        = LIGHT
+HTML_DYNAMIC_SECTIONS  = NO
+# Self-contained: embed everything so index.html works without a server
+SEARCHENGINE           = YES
+# MathJax renders \f$...\f$ formulas in doc pages
+USE_MATHJAX            = YES
+MATHJAX_VERSION        = MathJax_3
+
+# ---------------------------------------------------------------------------
+# Dot / graphs (optional — skip gracefully if graphviz not installed)
+# ---------------------------------------------------------------------------
+HAVE_DOT               = NO

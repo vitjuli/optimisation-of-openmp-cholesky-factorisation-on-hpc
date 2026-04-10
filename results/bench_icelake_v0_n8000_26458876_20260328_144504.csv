@@ -1,0 +1,9 @@
+# cholesky_benchmark  CHOLESKY_VERSION=0
+# hostname=cpu-q-142
+# max_threads=1
+# sizes=8000
+# threads=1
+# repeats=1
+version,n,threads,run,time_s,gflops,hostname
+0,8000,1,0,1105.18782,0.154423,cpu-q-142
+0,8000,1,-1,1105.18782,0.154423,cpu-q-142

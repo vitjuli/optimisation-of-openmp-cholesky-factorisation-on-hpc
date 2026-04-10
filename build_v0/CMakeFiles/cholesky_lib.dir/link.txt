@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libcholesky_lib.a CMakeFiles/cholesky_lib.dir/src/mphil_dis_cholesky.cpp.o
+/usr/bin/ranlib lib/libcholesky_lib.a
